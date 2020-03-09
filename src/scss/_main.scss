@@ -1,0 +1,317 @@
+html {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.box {
+    height: 250px;
+    // overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background: URL('http://prestigekurs.ru/img/header.jpg');
+}
+.overlay2 {
+    position:absolute;
+    top: 20px;
+    left: 50%;
+transform: translateX(-50%);
+    width: 280px;
+  
+    z-index: 2;
+}
+
+.overlay3 {
+    position:absolute;
+    top: 0;
+    left: 50%;
+    width: auto;
+    
+    transform: translateX(-50%);
+}
+.boxs1 {
+    height: 50px;
+    margin: 0 auto;
+
+    background: linear-gradient( rgb(175, 0, 0)    , rgb(116, 1, 1),#000);
+    ul {
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: #ff6600;
+        margin: 0 auto;
+        margin: 0;
+        padding: 0;
+        
+        li {
+            text-transform: uppercase;
+            position: relative;
+            font-size: 1rem;
+            cursor: pointer;
+            list-style-type: none;
+            margin: 0 30px;
+            transition: .5s all;
+            &::after{
+                content: '';
+                width: 20px;
+                height: 20px;
+                background: url(/dist/img/menudot.png);
+                background-size: cover;
+                right: -30px; top: -2px;
+                transform: translateX(50%);
+                position: absolute;
+            }
+            &:last-child::after {
+                background: none;
+            }
+            &:hover {
+                text-decoration: underline;
+                color: #fff;
+            }
+        }
+    }
+}
+.conte {
+    padding-top:60px ;
+    // height: 400px;
+    // overflow: hidden;
+    background-size: contain;
+    
+    background-position: center top;
+    background: URL('http://prestigekurs.ru/img/kurs_bg.jpg');
+    background-color: #DCC58E;
+    background-repeat: no-repeat;
+    }
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.test {
+    display: inline-block;
+    width: auto;
+    position: relative;
+    height: 80px;
+    margin: 0 auto;
+    z-index: 7;
+    .lobn2 {
+        width: auto;
+        height: 100%;
+        display: block;
+        
+    }
+    &:before {
+        content:'';
+        width: 150px; 
+        height: 200px;
+        background: url(http://prestigekurs.ru/img/kurs1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: -60px; left: -60px;
+        z-index: 999999999999999999999;
+}
+}
+.dz1 {
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+.dz {
+    // width: 300px;
+    flex: 0 1 350px;
+    height: 220px;
+    border: 10px solid #dac290fd;
+    color: #fff;
+    background: rgb(201, 196, 196);
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 20px #00000067;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    text-shadow: 1px 1px 3px #000;
+    font-weight: 400;
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+}
+.lol {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.lll {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // text-align: center;
+    background: rgba(0, 0, 0, 0.767);  
+    p {
+        padding: 0 15px;
+    }
+}
+.cont {
+    position: relative;
+    padding-bottom: 50px;
+}
+.hpp {
+    background: url(http://prestigekurs.ru/img/kurs_b.jpg);
+    position: absolute;
+    bottom: 0;
+    background-size: cover;
+    height: 137px;
+    width: 100%;
+}
+.maga {
+    padding:60px 0;
+    background-size: contain;
+    background-position: center top;
+    background: URL('http://prestigekurs.ru/img/preim0.jpg');
+    background-color: #FBE7CD;
+    background-repeat: no-repeat;
+}
+.maga1-1 {
+    display: flex;
+    justify-content: center;
+}
+.maga1 {
+        height: 100%;
+        margin: 0 auto;
+        display: inline-block;
+        position: relative;
+        img {
+            display: inline-block;
+        }
+        &:before {
+            content:'';
+            width: 150px; 
+            height: 200px;
+            background: url(http://prestigekurs.ru/img/priem.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: -40px; left: -60px;
+            z-index: 999999999999999999999;
+}
+}
+.maga2 {
+    max-width: 750px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.rav {
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+        height: 135px;
+        margin: 0 auto;
+     }
+     p {
+         text-align: center;
+         color: #990000;
+     }
+}
+.deb {
+    padding:60px 0;
+    background-size: contain;
+    background-position: center top;
+    background: URL('http://prestigekurs.ru/img/rasp/rasp_bg.jpg');
+    background-color: #FDF1E1;
+    background-repeat: no-repeat;
+}
+
+.deb1 {
+    display: flex;
+    justify-content: center;
+}
+.deb1-1 {
+        height: 100%;
+        margin: 0 auto;
+        display: inline-block;
+        position: relative;
+        img {
+            display: inline-block;
+        }
+        &:before {
+            content:'';
+            width: 123px; 
+            height: 96px;
+            background: url(http://prestigekurs.ru/img/rasp/rasp1.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: -40px; left: -60px;
+            z-index: 999999999999999999999;
+}
+}
+.deb2 {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+.deb2-1 {
+    width: 300px;
+    height: 283px;
+    background: #FFEBB3;
+    box-shadow: 0px 0px 10px #00000067; 
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 40px;
+    
+    cursor: pointer;
+    p {
+        color: #990000;
+        margin: 25px 10px 0 15px ;
+    }
+    h2 {
+        color: black;
+        font-weight: bold;
+        margin: 10px 0 0 15px ;
+    }
+    h4 {
+        color: black;
+        margin: 25px 0 0 15px ;
+    }
+}
+.deb2-2 {
+    width: 90px;
+    height: 90px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 45px 0 0 15px;
+}
+.deb2-2-1 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+}
+    .deb3 {
+        width: auto;
+        height: 100px;
+        background: #FDF1E1;
+        background: url(http://prestigekurs.ru/img/rasp/rasp2.png);
+        background-repeat: no-repeat;
+        height: 137px;
+        width: 100%;
+
+
+}
